@@ -23,6 +23,7 @@ function renderSeriesInTable(series: Serie[]): void {
                 element_description.innerText = s.description;
                 const element_link: HTMLElement = document.getElementById('link-serie')!; 
                 element_link.innerText = s.url;
+                element_link.setAttribute('href', s.url);
             });
         });
     }

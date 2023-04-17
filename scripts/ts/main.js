@@ -16,6 +16,7 @@ function renderSeriesInTable(series) {
             element_description.innerText = s.description;
             var element_link = document.getElementById('link-serie');
             element_link.innerText = s.url;
+            element_link.setAttribute('href', s.url);
         });
     });
 }
