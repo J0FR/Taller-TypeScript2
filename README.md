@@ -1,2 +1,2 @@
 # Taller-HTML
-- Demo: https://taller1-typescript.j0fr.com/
+- Demo: https://taller2-typescript.j0fr.com/
